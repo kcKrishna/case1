@@ -8,7 +8,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions(features="C:\\Users\\Training_h2a.06.17\\devils-workspace\\PACK1\\Features\\demofeature.feature",
 	glue = {"Stepdef"},
-	plugin={"pretty","html:target/reportdemo"})
+	plugin={"pretty","html:target/reportdemo1"})
 public class Runnner {
 
 }
